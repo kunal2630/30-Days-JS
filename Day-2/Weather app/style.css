@@ -1,0 +1,152 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #222;
+    color: white;
+}
+
+.main-cont{
+
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.app-cont{
+
+    background: linear-gradient(#2E3192, #1BFFFF);
+    height:30rem;
+    width: 25rem;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 3%;
+    width:30rem;
+    
+
+   
+
+}
+
+.search-cont{
+
+   
+    text-align: center;
+  
+    display:inline-block;
+    position: relative;
+    
+    
+    
+
+   
+}
+
+.search-box{
+
+    outline: none;
+    height: 2.6rem;
+    border: none;
+    
+    width: 20rem;
+    padding:12px;
+    font-size:1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
+}
+
+.search-icon{
+
+    position: absolute;
+    right:2px;
+    top: 8px;
+    color: black;
+    padding-right: 5px;
+
+    
+    
+    
+
+}
+
+.search-icon:hover{
+
+    cursor: default;
+}
+.temp-img{
+
+    margin-top: 20px;
+}
+.image{
+
+    width: 7rem;
+    height:7rem;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.temp,.city{
+
+    
+   
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.temp-data{
+
+    font-size:4.8rem;
+
+
+}
+.temp{
+
+    font-size:4.5rem;
+}
+.city{
+
+    font-size: 3rem;
+}
+
+.extra-detail-cont{
+
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    
+}
+
+.extra-detail-cont-child{
+
+    display: flex;
+    gap: 10px;
+}
+.extra-detail-image-cont{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-det-image{
+
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.extra-detail-text-cont{
+
+    font-size: 1.4rem;
+    text-align: left;
+    padding-top: 10px;
+
+}
