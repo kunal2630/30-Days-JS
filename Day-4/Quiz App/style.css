@@ -1,0 +1,132 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins','sans-serif';
+}
+body{
+
+    background-image: radial-gradient( circle farthest-corner at 14.7% 26.3%,  rgba(121,206,212,1) 0.2%, rgba(101,167,191,1) 89.5% );
+}
+
+
+.app{
+
+    width: 40%;
+    min-width: 500px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+   
+
+}
+
+.app-heading{
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid ;
+}
+
+.start-quiz-btn{
+
+    padding: 12px 90px;
+    margin: 30px auto 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(47, 186, 255);
+    border: 1px solid rgb(47, 186, 255);
+    color: #222;
+    transition: all 0.3s;
+}
+
+.start-quiz-btn:hover{
+
+    cursor: pointer;
+    background-color: #df7c04;
+    border: 1px solid #fff;
+    color: #fff;
+
+
+
+}
+.question{
+
+    margin: 20px 0;
+
+}
+
+.quiz-content{
+
+    display: none;
+}
+.ques-option{
+
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #222;
+    border-radius: 4px;
+   font-size: 20px;
+   transition: all 0.3s;
+
+
+}
+
+.ques-option:hover{
+
+    color: white;
+    background-color:#b9b8b8;
+    border: 1px solid  #b9b8b8;
+    cursor: pointer;
+
+}
+
+.ques-option-clicked{
+
+    background-color: #222;
+    color: #fff;
+}
+.ques-option-clicked:hover{
+
+    background-color: #222;
+    color: #fff;
+}
+
+.next-btn{
+
+    display: block;
+   
+    padding: 8px 50px;
+    color: #fff;
+    margin: 10px auto 5px;
+    
+    font-size: 20px;
+    border-radius: 10px solid rgb(47, 186, 255)  ;
+    transition: all 0.2s;
+    background-color: rgb(47, 186, 255);
+    border: 1px solid rgb(47, 186, 255) ;
+}
+
+.next-btn:hover{
+
+    background-color: #fff;
+    color: black;
+   
+    cursor: pointer;
+
+}
+
+.final-score{
+
+    margin: 20px 5px;
+    color: rgba(224, 45, 35, 0.985);
+    font-weight: bolder;
+    font-size: 40px;
+
+}
